@@ -62,3 +62,4 @@ en:
       display_date: Display date
       quit: quit
     invalid: Invalid choice.
+    quit_key: q

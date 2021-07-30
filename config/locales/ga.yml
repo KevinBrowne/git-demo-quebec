@@ -53,3 +53,13 @@ ga:
     - :month
 
   greeting: Is feidhmchlár mé!
+  farewell: Slán!
+
+  menu:
+    title: Roghchlár
+    prompt: Roghnaigh mir
+    options:
+      display_date: Taipeáin dáta
+      quit: Scoir
+    invalid: Rogha neamhbhailí.
+    quit_key: s
