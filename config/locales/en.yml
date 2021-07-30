@@ -57,7 +57,7 @@ en:
 
   menu:
     title: Main menu
-    prompt: Choose an option
+    prompt: Please choose an option
     options:
       display_date: Display date
       quit: quit
