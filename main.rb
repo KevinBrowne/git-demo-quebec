@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 require 'i18n'
+require 'date'
 
 I18n.load_path << Dir[File.expand_path("config/locales") + "/*.yml"]
 I18n.default_locale = :en # (note that `en` is already the default!)
@@ -12,3 +13,5 @@ if File.exist?(locale_file)
 end
 
 puts I18n.t('greeting')
+
+puts I18n.l Date.today, format: :short
