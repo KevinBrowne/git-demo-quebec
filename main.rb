@@ -14,12 +14,14 @@ end
 
 puts I18n.t('greeting')
 
+quit_key = I18n.t('menu.quit_key')
+
 def display_menu
   puts ''
   puts I18n.t('menu.title')
   puts ''
   puts "1. #{I18n.t('menu.options.display_date')}"
-  puts "q. #{I18n.t('menu.options.quit')}"
+  puts "#{I18n.t('menu.quit_key')}. #{I18n.t('menu.options.quit')}"
   puts ''
   puts I18n.t('menu.prompt')
   STDIN.gets.chomp
@@ -32,9 +34,9 @@ def display_date
 end
 
 option = ''
-while option != 'q' do
+while option != quit_key do
   option = display_menu
-  if option == 'q'
+  if option == quit_key
     puts I18n.t('farewell')
   elsif option == '1'
     display_date
