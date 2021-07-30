@@ -53,3 +53,12 @@ en:
     - :month
 
   greeting: I'm an application!
+  farewell: Goodbye!
+
+  menu:
+    title: Main menu
+    prompt: Choose an option
+    options:
+      display_date: Display date
+      quit: quit
+    invalid: Invalid choice.

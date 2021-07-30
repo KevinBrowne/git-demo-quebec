@@ -14,4 +14,31 @@ end
 
 puts I18n.t('greeting')
 
-puts I18n.l Date.today, format: :short
+def display_menu
+  puts ''
+  puts I18n.t('menu.title')
+  puts ''
+  puts "1. #{I18n.t('menu.options.display_date')}"
+  puts "q. #{I18n.t('menu.options.quit')}"
+  puts ''
+  puts I18n.t('menu.prompt')
+  STDIN.gets.chomp
+end
+
+def display_date
+  puts ''
+  puts '*****'
+  puts I18n.l Date.today, format: :short
+end
+
+option = ''
+while option != 'q' do
+  option = display_menu
+  if option == 'q'
+    puts I18n.t('farewell')
+  elsif option == '1'
+    display_date
+  else
+    puts I18n.t('menu.invalid')
+  end
+end
