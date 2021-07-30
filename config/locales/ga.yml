@@ -57,7 +57,7 @@ ga:
 
   menu:
     title: Roghchlár
-    prompt: Roghnaigh mir
+    prompt: Roghnaigh mir le de thoil
     options:
       display_date: Taipeáin dáta
       quit: Scoir
