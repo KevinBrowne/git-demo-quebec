@@ -1,2 +1,55 @@
 ga:
+  date:
+    abbr_day_names:
+    - Domh
+    - Luan
+    - Mái
+    - Céad
+    - Déar
+    - Aoin
+    - Sath
+    abbr_month_names:
+    -
+    - Ean
+    - Fea
+    - Már
+    - Aib
+    - Beal
+    - Meit
+    - Iúil
+    - Lún
+    - MFó
+    - DFó
+    - Sam
+    - Nol
+    day_names:
+    - Domhnach
+    - Luan
+    - Máirt
+    - Céadaoin
+    - Déardaoin
+    - Aoine
+    - Satharn
+    formats:
+      default: "%Y-%m-%d"
+      long: "%B %d, %Y"
+      short: "%b %d"
+    month_names:
+    -
+    - Eanáir
+    - Feabhra
+    - Márta
+    - Aibreán
+    - Bealtaine
+    - Meitheamh
+    - Iúil
+    - Lúnasa
+    - Meán Fómhair
+    - Deireidh Fómhair
+    - Samhain
+    - Nollaig
+    order:
+    - :year
+    - :month
+
   greeting: Is feidhmchlár mé!
